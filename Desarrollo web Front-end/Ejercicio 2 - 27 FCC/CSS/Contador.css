@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.name{
+background-color: aqua;
+border-radius: 20px;
+
+    font-size: 80px;
+}
+
+#value{
+   font-size: 150px;
+}
+
+.btn{
+font-size: 20px;
+width: 200px;
+height: 50px;
+border-radius: 20px;
+background-color: aqua;
+
+}
