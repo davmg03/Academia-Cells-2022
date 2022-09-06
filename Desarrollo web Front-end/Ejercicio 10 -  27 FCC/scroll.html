@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./CSS/scroll.css" />
+</head>
+<body>
+
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="./IMG/logo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Inicio</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">Sobre Nosotros</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Servicios</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">Excursiones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <div class="banner">
+        <div class="container">
+          <h1>Projecto Scroll</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sint ipsam distinctio aliquid perspiciatis, animi fugit. Sequi corrupti repellat eveniet, laborum iure ratione quis enim, blanditiis nemo consectetur ad soluta.</p>
+          <a href="#tours" class="scroll-link btn btn-white">Explorar Viajes</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="title">
+        <h2>Sobre <span>Nosotros</span></h2>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="title">
+        <h2>Nuestros <span>Servicios</span></h2>
+      </div>
+    </section>
+
+    <section id="tours" class="section">
+      <div class="title">
+        <h2>Excursiones <span>Destacadas</span></h2>
+      </div>
+    </section>
+    
+    <footer class="section">
+      <p>Derechos de autor &copy; Backroads Compañía de viajes y excursiones<span id="date"></span>. Todos los derechos reservados.</p>
+    </footer>
+    <a class="scroll-link top-link" href="#home"><i class="fas fa-arrow-up"></i></a>
+
+<script src="./JS/scroll.js"></script>
+</body>
+</html>
