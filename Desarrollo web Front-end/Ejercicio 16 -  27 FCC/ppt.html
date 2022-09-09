@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijeras </title>
+    <link rel="stylesheet" href="./CSS/ppt.css">
+</head>
+<body>
+    <header>
+        <h1>Piedra, Papel o Tijeras</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">Usuario</div>
+        <div id="computer-label" class="badge">Comp.</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Piedra contra tijeras. ¡Tú ganas!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="./IMG/roca.png" alt="" srcset="" width="150" height="150">
+        </div>
+        <div class="choice" id="p">
+            <img src="./IMG/papel.png" alt="" srcset="" width="150" height="150">
+        </div>
+        <div class="choice" id="t">
+            <img src="./IMG/tijeras.png" alt="" srcset="" width="150" height="150">
+        </div>
+    </div>
+
+    <p id="action-message">Haz tu movimiento</p>
+
+<script src="./JS/ppt.js"></script>
+</body>
+</html>
